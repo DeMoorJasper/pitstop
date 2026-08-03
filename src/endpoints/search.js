@@ -21,7 +21,7 @@ search.handleRequest = function(req, res) {
     }).catch(e => {
         console.log(e);
         res.json({
-            "error": "An error accured"
+            "error": "An error occurred"
         });
     })
 }
